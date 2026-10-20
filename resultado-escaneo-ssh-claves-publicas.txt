@@ -1,0 +1,20 @@
+root@prox-huff:~# ssh-keyscan -t rsa 192.168.202.51 -p 22
+getaddrinfo -p: Name or service not known
+# 192.168.202.51:22 SSH-2.0-OpenSSH_10.0p2 Debian-7+deb13u4
+192.168.202.51 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCY0Ojk3UxkVBvCKVsas0rzXyWH4RriUh8wHEnm0q+N0tWZhDSKw6Mnwby2JsqHpc8UnMLd4MahPPcwCMeWjxu4OVbZUyzqL++H4Nxp5wjxubWJvSahI5vyFs3hhXK2Ov4Zh+lubu1TIElmAO0k6jVEwk08lLrgI/VK9V12VbtLP5/zho9mOe8RVZIKc7spkaA9ee2LZM+WmtDrSwoCUmBtK/5hlURxSFqkHK1lPc9PnJlQ3gf7L4/NBogRkOmSf+VJv+rJvfGBStm3qwTtlQCKvZHGDKoRD1sl08q5B3PKOJt9NdNz64GEecGS3m5ivF4JtRgesNpOHNkwZOu2e0R6mb6dEhcGsf87h7eHZTQG520BlL/Zlz/8iwurfVEtGQROe5vfw5sRvi7mdCDX8Eq5OKKY8pnxCFsXZm5dZZnCWRYUd2r4hFJd1jYSYl7WWybFmeoPfNH1k01sWGoj4uEffZENsEwJpN83JaDhl5+oQOj4M+js21ecVtufDnEwKMM=
+root@prox-huff:~# 
+root@prox-huff:~# ssh-keyscan -t rsa 192.168.202.52 -p 22
+getaddrinfo -p: Name or service not known
+# 192.168.202.52:22 SSH-2.0-OpenSSH_10.0p2 Debian-7+deb13u4
+192.168.202.52 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCOSTIuM5mKvZU3CdojWIRH/AzXrCMbjUqgdviOFVorHye4WZ+um03eySgBNBSBdc0TYowx8pwUGTlP2VZYq7mkHoIY1q5AVKb381tJsJLszydyYaogqh/ngvr28effuOkBo5zIyWXBJv2o92u8yxPClP2vE1xnCV9jQoTDR0cEZk5Q1tjopvPL3XfvbPZFtZHhJ6NMmKj9efcvz9AqJiR/KWNIzSExr5SQjYpZhLJe3MZrNkuzJllkvnAIcB6TerD435U3oC4jbXF7Smuy+MOfS2ERSVWKjZLASaX4y1IY3kVPLhCT94EgiRjgm+DIi6YqTMAkRkT76knIiJnHlZGfVxnuAmERDpA6JnTskX39+Yg6nQ6hgSPbPEnmUsKIXj2LaXjTl4YebQ2kqYp+rJB9MI9HHWtpdMoAZR4WCLyEbFXbHF007OYGRowZJvoMe5xNXwPEZbahtIXY5m4OCZDXPKv1/YhqjjcOwqPsw0auSwRWZhpVsh6IZ64vJMBuBpU=
+root@prox-huff:~# 
+root@prox-huff:~# ssh-keyscan -t rsa 192.168.202.53 -p 22
+getaddrinfo -p: Name or service not known
+# 192.168.202.53:22 SSH-2.0-OpenSSH_10.0p2 Debian-7+deb13u4
+192.168.202.53 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDivw99TAl3AjhpMDxWE+BIQdV1ShO2p56iu8TiPjiYpuwSNSrMpQMF/a+ncKG8dWTqx1tBHYTiNxYCRu1shbYNU4g920uyk3l1IN7DTyBVQPMs81OhGOOjYQ1aMMUqCBz0/abBhVhOjrctl8LKdr95G1uH5AXBP4OAsJGXtIJcyODmVwxSyWJcXfawhB9Mk71g6NKVk5PkkiH3hK3QhrHEfum2nEvsBW+FKVsFc7VgtrHAwwRP0GiNNIPMtAHzB2aN0KZPOm3XB4l/4BU4mdpELI8yJzWLO83brjyPUlHNFHif9WcPxfWa+8l1DGDwSpa3Pw/gK8gasQTO3jKZwShVtkqtG+3+jRlqmj9fFd1ILEv2iCj6fvj2HstOFSftc0lfEw3JmF3Zk/UQgqhigXyMrrGv6gI/0xhXupy+peLkOSdzlg5ghNaXC6FRS4KUepEEAHXbLiHVnvTBibMzeHbLuBBTs7bwNiNoRwyK3kNqv7n9aqjgjwtpAWt9dkB0vmM=
+root@prox-huff:~# 
+root@prox-huff:~# ssh-keyscan -t rsa 192.168.202.54 -p 22
+getaddrinfo -p: Name or service not known
+# 192.168.202.54:22 SSH-2.0-OpenSSH_10.0p2 Debian-7+deb13u4
+192.168.202.54 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC/FxIf7ebbMCFLNiLTVXv15dNzPLS8s9PNwlGKM1DRry9SbjIT7CZVyjV/dweVyWzY6V+WBwB5CFxaMz8zBuDYxH35CqWDRrFJ5cDkhugVcMC0UBy2l0doA+EOEdllTpUGWwlZxPNatiekt9SmZIIXJOPioX1SIDYLWDrs//LblaI4pGznwOKTUEoS2ImL032kwiiUETTkcWLpWvmFaWCRD9z+sFxLKXYk4gKfLCN8FDCT6TaoXMYOLokohHt5IRwf3BNgGrvD9c+ghNeWuWZXx6c+q07Vk376YWOtpqnGunOR/kU2ukkIWEPWmPQoWnPmRUtrjU+RlbtUnIibxHo8HD4Nt05gPzJR6pnoz8jxAXYGKivadwHPMLTwOKBVnjRjH06EuJq0KlkB68zZOu1GYCtvRDvYGeWVDiejMGLa+iKM2KXiEgEkG3NhJW105jPge7DJpW0bUT1xGT6v9JFR6pmFT74Z2DDBv8HMC6SWDw4hY+0hLbSSvzN0+ainVVc=
+root@prox-huff:~# 
